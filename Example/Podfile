@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NCiOSPod_Tests' do
+  pod 'NCiOSPod', :path => '../'
+  
+  
+end
