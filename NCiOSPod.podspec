@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://www.github.com/haarish-ncompass/NCiOSPod'
+  s.homepage         = 'https://github.com/haarish-ncompass/NCiOSPod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KG Haarish Kannan' => 'haarish@ncompass.in' }
-  s.source           = { :git => 'https://www.github.com/haarish-ncompass/NCiOSPod', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/haarish-ncompass/NCiOSPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
