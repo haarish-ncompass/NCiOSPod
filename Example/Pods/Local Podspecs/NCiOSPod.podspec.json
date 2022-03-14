@@ -1,0 +1,22 @@
+{
+  "name": "NCiOSPod",
+  "version": "0.1.0",
+  "summary": "A short description of NCiOSPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KG Haarish Kannan/NCiOSPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KG Haarish Kannan": "haarish@ncompass.in"
+  },
+  "source": {
+    "git": "https://github.com/KG Haarish Kannan/NCiOSPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NCiOSPod/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module NCiOSPod {
+  umbrella header "NCiOSPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

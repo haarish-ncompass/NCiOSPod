@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31CCF01CCBD3C6C24024C15D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		46782C2D2CDDDEDD49D77E71 /* NCiOSPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NCiOSPod.podspec; path = ../NCiOSPod.podspec; sourceTree = "<group>"; };
+		31CCF01CCBD3C6C24024C15D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		46782C2D2CDDDEDD49D77E71 /* NCiOSPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NCiOSPod.podspec; path = ../NCiOSPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* NCiOSPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCiOSPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72447EA380D5EADF73C17A99 /* Pods_NCiOSPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCiOSPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E4600BAFE26EB440D5EB13 /* Pods-NCiOSPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCiOSPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-NCiOSPod_Tests/Pods-NCiOSPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A7B1BE265D809B5E91C28A31 /* Pods-NCiOSPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCiOSPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NCiOSPod_Tests/Pods-NCiOSPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAC34B2143D88971C5339094 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CAC34B2143D88971C5339094 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				A7B1BE265D809B5E91C28A31 /* Pods-NCiOSPod_Tests.debug.xcconfig */,
 				A0E4600BAFE26EB440D5EB13 /* Pods-NCiOSPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
